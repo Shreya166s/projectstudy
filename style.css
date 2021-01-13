@@ -1,0 +1,60 @@
+.topnav{
+    width: 100%;
+    height: 90px;
+  
+}
+h3{
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+    }
+
+.ui-content h3{
+font-weight: bolder;
+    font-family:verdana;
+     padding-top: 30px;
+    margin-top: 30px;
+ }
+
+    #page1
+    {
+        background-color: cadetblue;
+        color: beige;
+        
+    }
+  .carousel-inner{
+height: 400px;
+width: 100%;
+margin-top: 40px;
+}
+.item{
+    width: 100%;
+}
+.carousel-caption {
+    width: 550px;
+    left: 15%;
+    top: 40% !important;
+    transform: translateY(-90%);
+    text-align: left;
+    color: rgb(189, 47, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: initial;
+    }
+
+
+#page2{
+    background-color: #92f5ed9a;
+    text-align: center;
+}
+footer{
+    background-color: slategray;
+    height: 50px;
+}
+
+
+    
+
+
+      
+    

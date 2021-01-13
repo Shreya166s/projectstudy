@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js" type="text/javascript"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!--link rel="stylesheet" type="text/css" href="CSS/ToDostyle.css"> </link-->
+    </head>
+    <style>
+        body{
+            background-color: rgb(148, 177, 180);
+            text-align: center;
+            
+        }
+        h2{
+            text-align:center;
+            
+        }
+        header{
+           background-color: blueviolet;
+           color: palevioletred;
+            height:118px;
+            width: 100%;
+        }
+        a{
+            color: white;
+            font-size: 25px;
+            font-weight: bolder;
+            font-family: Cambria;
+            text-align: right;
+        }
+        
+    </style>
+    </head>   
+    <body>
+        <header>
+        <img src="img/b2.jpg" width="500" height="118" >
+        </header>
+        <h2> STUDENT DETAILS FORM</h2>
+        <br>
+        <div action="get" >
+            <section>
+                  <div id="content" data-role="main" class="ui-content" >
+            First name : <input type="text" id="Fname" placeholder="enter your First name"> <br><br>
+          Last name : <input type="text" id="Lname" placeholder="enter your last name"> <br><br>
+          Address : <input type="text" id="add" placeholder="enter your address"> <br><br>
+          age : <input type="text" id="age" > <br><br>
+          Date of birth : <input type="text" id="dob" placeholder="enter in dd/mm/yy format"><br><br>
+          Qualification : <br>
+          School<input type="radio" id="b1" value="school" name="q"> <br>
+          Undergraduate<input type="radio" id="b12" value="undergraduate" name="q"> <br>
+         Postgraduate <input type="radio" id="b3" value="postgraduate" name="q"> <br><br>
+         <input type="submit" value="submit" ><br>
+         <a href="index.html" data-transition="fade">Back to Home Page</a>
+            </section> <br>
+
+            
+        </div>
+    </body>
+</html>
